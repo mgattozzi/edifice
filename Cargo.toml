@@ -1,0 +1,14 @@
+[package]
+name = "edifice"
+version = "0.1.0"
+authors = ["Michael Gattozzi <mgattozzi@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "ef"
+path = "src/main.rs"
+
+[dependencies]
+structopt = "*"
+serde = "1.0"
+serde_json = "1.0"
